@@ -1,0 +1,108 @@
+#wrapper {
+width:100%;
+position:relative;
+}
+
+#left{
+float:left;
+height:137%;
+width:69%;
+border-radius:15px;
+padding:25px;
+overflow:auto;
+border-left:#99cc33 solid 5px;
+border-right:#99cc33 solid 3px;
+border-top:#99cc33 solid 4px;
+border-bottom:#99cc33 solid 2px;
+background-color:rgba(238, 238, 238, 0.63);
+margin:2% 1% 2% 2%;
+min-height:740px;
+}
+
+#left p{
+margin:40px;
+text-align:justify;
+}
+
+#left h1{
+margin:40px;
+text-align:center;
+color:rgba(153,204,51,1);
+}
+
+#left h2{
+margin:40px;
+text-align:center;
+color:rgba(153,204,51,0.7);
+}
+
+#right{
+border-top:3px solid rgba(66,158,229,1);
+border-right:1px solid rgba(66,158,229,1);
+border-bottom: 2px solid rgba(66,158,229,1);
+float:left;
+color:rgb(233,233,233);
+height:40%;
+width:19%;
+border-radius:15px;
+padding:25px;
+background-color:#535353;
+border-left:4px solid rgba(66,158,229,1);
+margin:2% 2% 2% 1%;
+min-height:240px;
+}
+
+#right p{
+margin:40px;
+text-align:justify;
+}
+
+
+#right > p {
+float:left;
+margin: 2%;
+}
+
+#footer {
+text-align:justify;
+width:100%;
+}
+
+#left_f{
+clear:both;
+float:left;
+height:auto;
+width:100%;
+margin:2% 0 0 0;
+padding:0 3% 0 3%;
+background:#535353;
+position:inherit;
+}
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.team{
+height:100px;
+width:100px;
+}
+
+.tab{
+margin:15px;
+padding:10px;
+}
+
